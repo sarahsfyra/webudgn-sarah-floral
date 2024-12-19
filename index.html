@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaia & Alistar Wedding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="udgn.css">
+</head>
+<body>
+    <section id="hero" class="hero">
+        <main>
+            <div class="flower-ornament">
+                <img class="pos-tl" src="assets/img/ornamenb.png" alt="Ornamen Bunga">
+                <img class="pos-tr" src="assets/img/ornamenb.png" alt="Ornamen Bunga">
+                <img class="pos-bl" src="assets/img/ornamenb.png" alt="Ornamen Bunga">
+                <img class="pos-br" src="assets/img/ornamenb.png" alt="Ornamen Bunga">
+            </div>
+            <h4 class="animate-fade">Undangan Pernikahan</h4>
+            <h1 class="animate-left">Alaia & Alistar</h1>
+            <p class="animate-right">Untuk : Bapak Satria</p>
+            <button id="open-invitation" onclick="toggleNavbar()">Buka Undangan</button>
+        </main>
+    </section>
+    <!--kotakk musikk-->
+    <div id="kotak-musik">
+        <audio id="lagu" loop>
+            <source src="assets/audio/lagu.mp3">
+            audio tidak dapat diputar
+        </audio>
+        <div id="tombol-musik" onclick="putarLagu()">
+            <img id="kontrol" src="assets/img/musicoff.png">
+        </div>
+    </div>
+    <!--navbar atas-->
+    <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#quotes">Quotes</a></li>
+          <li><a href="#profile">Profil</a></li>
+          <li><a href="#info">Akad</a></li>
+          <li><a href="#gallery">Galeri</a></li>
+          <li><a href="#tamu-khusus">Tamu</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="#gift">Gift</a></li>
+          <li><a href="#guest-message">Pesan</a></li>
+          <li><a href="#terimakasih">Thanks</a></li>
+        </ul>
+      </nav>
+
+        <!-- quotes -->
+    <section id="quotes" class="quotes-section">
+        <div class="flower">
+            <img class="flower-ornament-img" src="assets/img/ornamenb.png" alt="Ornamen Bunga">
+        </div>
+        <div class="quotes-content animate-left">
+        <p>An Nisa ayat 1</p>
+        <p>يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَآءً ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا
+        </p>
+        <p> Artinya: "Hai sekalian manusia, bertakwalah kepada Tuhan-mu yang telah menciptakan kamu dari seorang diri, dan dari padanya Allah menciptakan isterinya; dan dari pada keduanya Allah memperkembang biakkan laki-laki dan perempuan yang banyak. Dan bertakwalah kepada Allah yang dengan (mempergunakan) nama-Nya kamu saling meminta satu sama lain, dan (peliharalah) hubungan silaturrahim. Sesungguhnya Allah selalu menjaga dan mengawasi kamu."</p>
+    </div>
+    </section>
+
+        <!--profil pengantin-->
+        <div id="profile" class="profile">
+            <img src="assets/img/cowo.jpg" alt="Alistar Mizyan Assegaf" class="animate-fade">
+            <h2 class="animate-right"> Alistar Mizyan Assegaf</h2>
+            <p class="animate-right">Putra dari Bapak Rafli Assegaf & Ibu Ruce Melianti</p>
+            <a href="https://www.instagram.com/sarahsfyra/" target="_blank">Instagram</a>
+            <br>
+            <br>
+            <img src="assets/img/cewe.jpg" alt="Alaia Shavyra Sjahrir" class="animate-fade">
+            <h2 class="animate-left">Alaia Shavyra Sjahrir</h2>
+            <p class="animate-left">Putri dari Bapak Giovan Sjahrir & Ibu Savira Hadid</p>
+            <a href="https://www.instagram.com/sarahsfyra/" target="_blank">Instagram</a>
+        </div>
+
+            <!--info akad-->
+        <section id="info" class="info">
+            <div class="container animate-fade">
+                <h2 class="animate-right">Informasi Acara</h2>
+                <p class="alamat">Alamat: Pantai Nusa Dua, Bali, Indonesia</p>
+                <a href="https://maps.app.goo.gl/hW9inEBinWTUhabb8" target="_blank" class="btn">Buka Peta</a>
+                <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Jika tiba di tujuan tanpa tanda-tanda pernikahan, mungkin salah jadwal atau tempat.</p>
+        
+                <div class="schedule animate-left">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Akad Nikah</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="info-item">
+                                <i class="icon">⏰</i>
+                                <span>08:00 - 10:00</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="icon">📅</i>
+                                <span>Minggu, 13 Oktober 2024</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Diharapkan menjaga kehidupan dan kekhusyuan seluruh prosesi akad.
+                        </div>
+                    </div>
+        
+                    <div class="card animate-right">
+                        <div class="card-header">
+                            <h4>Resepsi Pernikahan</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="info-item">
+                                <i class="icon">⏰</i>
+                                <span>11:00 - 13:00</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="icon">📅</i>
+                                <span>Minggu, 13 Oktober 2024</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Mohon hadir tepat waktu dan menjaga protokol kesehatan.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- gallery -->
+        <section id="gallery" class="gallery-section">
+            <h2 class="animate-fade">Galeri Momen Berharga</h2>
+            <div class="gallery-container">
+                <div class="gallery-item animate-left">
+                    <img src="assets/img/prewed.jpg" alt="Alaia & Alistar" class="gallery-img">
+                </div>
+                <div class="gallery-item animate-right">
+                    <img src="assets/img/prewed2.jpg" alt="Alaia & Alistar" class="gallery-img">
+                </div>
+                <div class="gallery-item animate-left">
+                    <video controls class="gallery-video">
+                    <source src="assets/video/vidprewed.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Daftar Tamu Khusus -->
+        <section id="tamu-khusus" class="guest-section">
+            <h2 class="animate-left">Daftar Tamu Khusus</h2>
+            <div class="guest-container">
+                <table class="guest-table animate-right">
+                    <thead>
+                        <tr>
+                            <th colspan="3">Daftar Tamu Kehormatan</th>
+                        </tr>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Hubungan</th>
+                        </tr>
+                    </thead>
+                <tbody>
+                    <tr>
+                        <td>Bapak Satria</td>
+                        <td rowspan="2">Keluarga Mempelai Wanita</td>
+                    </tr>
+                    <tr>
+                        <td>Ibu Dela</td>
+                    </tr>
+                    <tr>
+                        <td>Bapak Agus</td>
+                        <td rowspan="2">Keluarga Mempelai Pria</td>
+                    </tr>
+                    <tr>
+                        <td>Ibu Maya</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="note">Kami harapkan kehadiran Bapak/Ibu tepat waktu.</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section id="rsvp" class="rsvp-section">
+            <h2 class="animate-left">RSVP</h2>
+            <div class="rsvp-container">
+                <form action="#" method="post" class="rsvp-form animate-left">
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="nama" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telp">No. Telp</label>
+                        <input type="tel" id="telp" name="telp" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kehadiran</label>
+                    <div>
+                        <input type="radio" id="hadir" name="kehadiran" value="hadir" required>
+                        <label for="hadir">Hadir</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="tidak-hadir" name="kehadiran" value="tidak-hadir">
+                        <label for="tidak-hadir">Tidak Hadir</label>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Pilihan Makanan</label>
+                    <div>
+                        <input type="checkbox" id="vegetarian" name="makanan" value="vegetarian">
+                        <label for="vegetarian">Vegetarian</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="non-vegetarian" name="makanan" value="non-vegetarian">
+                        <label for="non-vegetarian">Non-Vegetarian</label>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="jumlah-tamu">Jumlah Tamu</label>
+                        <select id="jumlah-tamu" name="jumlah-tamu" required>
+                            <option selected disabled>Pilih Jumlah Tamu...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan Tambahan</label>
+                        <textarea id="pesan" name="pesan"></textarea>
+                    </div>
+                    <div class="form-group submit-group">
+                        <button type="submit">Kirim RSVP</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Story -->
+        <section id="story" class="story-section">
+            <h2 class="animate-left">Cerita Kami</h2>
+            <div class="story-container">
+                <div class="story-content animate-left">
+                    <h3>Awal Pertemuan</h3>
+                    <p>Alaia dan Alistar bertemu untuk pertama kalinya di sebuah acara komunitas. Sejak saat itu, keduanya merasa ada koneksi yang istimewa antara mereka. Keduanya menghabiskan waktu bersama, mengenal satu sama lain, dan menjalin persahabatan yang erat.</p>
+                    <img src="assets/img/1.jpeg" alt="Pertemuan Pertama" class="story-img">
+                </div>
+
+            <div class="story-content animate-right">
+                <h3>Petualangan Bersama</h3>
+                <p>Setelah beberapa bulan, Alaia dan Alistar mulai berbagi petualangan. Mereka pergi ke tempat-tempat indah, mencoba kuliner baru, dan menciptakan banyak kenangan berharga. Setiap momen yang mereka lewati bersama semakin memperkuat cinta di antara mereka.</p>
+                <img src="assets/img/2.jpeg" alt="Petualangan Bersama" class="story-img">
+            </div>
+            <div class="story-content animate-left">
+                <h3>Lamaran yang Tak Terlupakan</h3>
+                <p>Suatu hari yang indah, Alistar mengajak Alaia ke tempat yang mereka kunjungi saat pertama kali bertemu. Dengan suasana romantis, Alistar melamar Alaia di bawah sinar bulan purnama. Tentu saja, Alaia mengucapkan "Ya!" dengan penuh bahagia.</p>
+                <img src="assets/img/3.jpeg" alt="Lamaran" class="story-img">
+            </div>
+            <div class="story-content animate-right">
+                <h3>Persiapan Pernikahan</h3>
+                <p>Setelah lamaran, mereka berdua mulai mempersiapkan hari bahagia mereka. Dari memilih tempat, undangan, hingga mengatur detail kecil, setiap langkah diambil dengan cinta dan antusiasme. Mereka tak sabar untuk berbagi momen istimewa ini dengan orang-orang terkasih.</p>
+                <img src="assets/img/4.jpeg" alt="Persiapan Pernikahan" class="story-img">
+            </div>
+        </div>
+        </section>
+
+        <!-- Gift Section -->
+        <section id="gift" class="gift-section">
+            <h2 class="animate-right">Kirim Hadiah</h2>
+            <div class="gift-container animate-left">
+                <div class="gift-info">
+                    <h3>Transfer Rekening</h3>
+                    <p>Jika Anda ingin memberikan hadiah, Anda dapat mentransfernya ke rekening berikut:</p>
+                <div class="account-info">
+                    <p>Bank BRI</p>
+                    <p>AN : Alaia Shavyra Sjahrir</p>
+                    <p>No. Rekening: <span id="account-number">1234567890</span></p>
+                    <button id="copy-button" onclick="copyAccountNumber()">Salin Nomor Rekening</button>
+                </div>
+                <p>Atau Anda bisa scan QR Code di bawah ini:</p>
+                <img src="assets/img/qr.jpg" alt="QR Code untuk Transfer" class="qr-code">
+            </div>
+            </div>
+        </section>
+
+        <!-- Guest Message Section -->
+        <section id="guest-message" class="guest-message-section">
+            <h2 class="animate-right">Kirim Pesan untuk Pengantin</h2>
+            <div class="message-container animate-left">
+                <form id="message-form" class="message-form" onsubmit="return submitMessage(event)">
+                     <div class="form-group">
+                        <label for="guest-name">Nama Anda</label>
+                        <input type="text" id="guest-name" name="guest-name" required placeholder="Masukkan nama Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan Untuk Pengantin</label>
+                        <textarea id="message" name="message" placeholder="Tulis pesan di sini..." required></textarea>
+                    </div>
+                    <div class="form-group submit-group">
+                        <button type="submit">Kirim Pesan</button>
+                    </div>
+                </form>
+            </div>
+            <div id="message-list" class="message-list">
+                <h3 class="animate-right">Rekap Pesan :</h3>
+                <ul id="messages"></ul>
+            </div>
+        </section>
+
+        <!-- Thank You Section -->
+        <section id="terimakasih" class="thank-you-section">
+            <h2 class="animate-left">Ucapan Terima Kasih</h2>
+            <div class="thank-you-content animate-right">
+                <p>
+                    Kami mengucapkan terima kasih yang sebesar-besarnya kepada semua yang telah hadir dan memberikan doa restu pada hari bahagia kami.
+                    Setiap kehadiran Anda sangat berarti bagi kami. Semoga cinta dan kebahagiaan selalu menyertai kita semua. 
+                </p>
+                <p>
+                    Dengan cinta, <br>
+                    Alaia & Alistar
+                </p>
+            </div>
+        </section>
+    </body>
+        <script src="udgn.js"></script>
+</html>
